@@ -1,0 +1,21 @@
+package com.ip.bean;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Candidate")
+public class Candidate {
+
+	@Id
+	@Column(name="Id", columnDefinition="INT")
+	private int id;
+	
+	@Column(name="firstName", columnDefinition="VARCHAR(50)")
+	private String firstName;
+	
+	@Column(name="lastName", columnDefinition="VARCHAR(50)")
+	private String lastName;
+}

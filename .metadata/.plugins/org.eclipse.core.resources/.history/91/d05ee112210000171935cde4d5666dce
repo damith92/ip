@@ -1,0 +1,26 @@
+package com.ip.bean;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="user")
+public class User {
+	
+	@Id
+	@GeneratedValue
+	@Column(name="id",columnDefinition="INT")
+	private int id;
+	
+	@Column(name="userName",columnDefinition="VARCHAR(100)")
+	private String userName;
+	
+	@Column(name="role",columnDefinition="VARCHAR(50)")
+	private String role;
+	
+	
+
+}

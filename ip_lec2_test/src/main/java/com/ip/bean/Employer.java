@@ -1,0 +1,17 @@
+package com.ip.bean;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Employer")
+public class Employer extends User{
+
+	@Id
+	@Column(name="Id", columnDefinition="INT")
+	private int id;
+	
+	
+}

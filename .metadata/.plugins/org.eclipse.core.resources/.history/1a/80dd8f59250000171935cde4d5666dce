@@ -1,0 +1,8 @@
+package com.ip.bean;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Candidate {
+
+}
