@@ -2,6 +2,7 @@ package com.ip.dao;
 
 import org.hibernate.SessionFactory;
 
+
 public class AbstractDao {
 	
 	private SessionFactory sessionFactory;
