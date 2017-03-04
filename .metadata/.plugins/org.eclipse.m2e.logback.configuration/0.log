@@ -442,3 +442,7 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected ST
 2017-03-04 12:37:08,294 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-03-04 12:37:08,295 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-03-04 12:37:08,296 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Udara/Documents/workspace/ip/ip_lec2_test/src/test/resources
+2017-03-04 12:51:47,944 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-04 12:51:47,952 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-04 12:51:47,957 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-04 12:51:47,957 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Udara/Documents/workspace/ip/ip_lec2_test/src/test/resources
